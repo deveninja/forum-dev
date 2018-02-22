@@ -12,7 +12,10 @@
 */
 
 Route::get('', 'PagesController@index');
-
 Route::get('practice', 'PagesController@practice');
+Route::get('register', 'PagesController@register');
+Route::get('login', 'PagesController@login');
+Route::get('posts', 'PagesController@posts');
+
 
 
